@@ -1,0 +1,77 @@
+#outer-body {
+    height: 500px;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    background: dimgray;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#jonah {
+    z-index: 5;
+    transform: translateY(100px);
+    transform: scale(0.42);
+    display: none;
+}
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+#contents {
+    height: 30%;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#screen {
+    height: 100%;
+    width: 100%;
+    background: rgb(187, 187, 187);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;;
+}
+#buttons {
+    height: 70%;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.button {
+    width: 25%;
+    height: 20%;
+    font-size: 40px;
+}
+.button:hover {
+    opacity: 0.8;
+}
+.clear {
+    width: 75%;
+    background: lightseagreen;
+}
+.zero {
+    width: 50%;
+}
+.operator {
+    background: lightseagreen;
+}
+.number {
+    background: khaki;
+}
+.decimal {
+    background: khaki;
+    width: 25%;
+    height: 20%;
+    font-size: 40px;
+}
+.decimalToggle {
+    opacity: 0.3;
+}
